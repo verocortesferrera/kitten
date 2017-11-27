@@ -6,12 +6,14 @@
 
 .container{
 	background-image: url(../img/sunny-day.jpg);
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	z-index:0;
 	width:: 100%;
-	height: 100%;
+	height: 100vh;
 	padding: 30%;
+	background-attachment: fixed;
+	background-position: center center; /*horizontal vertical*/
 }
 
 .row{
@@ -19,7 +21,8 @@
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 100;
-	height: 16em;
+	height: 20em;
 	background-repeat: no-repeat;
 	background-size: 100%;
+	
 }
