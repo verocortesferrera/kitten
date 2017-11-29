@@ -6,6 +6,7 @@
 @media (max-width: 767px){
     .container{
     background-image: url(../img/dawn.png);
+    padding-left: 30%;
   }
   .row{
     background-image: url(../img/kitten-large.png);
